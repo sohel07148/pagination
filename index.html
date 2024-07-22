@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pagination</title>
+    <title>Pagination</title>
     <link rel="stylesheet" href="style.css" />
 
     <!-- bootstrap -->
@@ -19,13 +19,13 @@
     <div class="container">
       <div class="row" id="main_row"></div>
       <div class="p_container">
-        <div id="pagination">
-          <button id="prevBtn">Prev</button>
-          <div id="pageNumbers"></div>
-          <button id="nextBtn">Next</button>
+        <div class="pagination">
+          <button class="btn1" onclick="backBtn()">prev</button>
+          <ul id="pagination">
+            <!-- Pagination buttons will be dynamically inserted here -->
+          </ul>
+          <button class="btn2" onclick="nextBtn()">next</button>
         </div>
-        <div id="main_row"></div>
-        
       </div> 
     </div>
 
